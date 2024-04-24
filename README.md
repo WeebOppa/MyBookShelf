@@ -17,17 +17,22 @@ MyBookShelf is a web application designed to help book enthusiasts manage their 
 - **Database:** SQLite, a lightweight disk-based database to store user data and book information.
 - **APIs:** Google Books API, which provides the data used to search for books and retrieve metadata.
 
+This project was an opportunity to explore web development using Flask and integrating third-party APIs. It posed challenges such as managing user sessions, interacting with external APIs, and ensuring responsive design, all of which were addressed during development.
+
 ### Setup and Installation
-1. Clone the repository:
+The following instructions will guide you through setting up and running the MyBookShelf application on your local machine. These steps assume you have a basic understanding of command line operations and Python environments.
+
+#### Prerequisites
+- **Python:** The application is written in Python, so you'll need Python 3.7 or later installed on your computer. You can download it from [python.org](https://www.python.org/downloads/).
+- **Git:** To clone the project repository, you'll need Git installed. If you don't have Git, you can download it from [git-scm.com](https://git-scm.com/downloads).
+- **Pip:** Ensure that pip is installed, as it will be used to install the Python packages needed for the application.
+
+#### Step-by-step Installation
+
+1. **Clone the repository:**
+   Use Git to clone the project's repository into a directory of your choice on your local machine:
    ```bash
    git clone https://github.com/WeebOppa/MyBookShelf.git
+   cd MyBookShelf
 
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
 
-3. Run the Flask application::
-   ```bash
-   flask run
-
-This project was an opportunity to explore web development using Flask and integrating third-party APIs. It posed challenges such as managing user sessions, interacting with external APIs, and ensuring responsive design, all of which were addressed during development.
