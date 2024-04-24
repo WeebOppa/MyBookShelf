@@ -35,4 +35,19 @@ The following instructions will guide you through setting up and running the MyB
    git clone https://github.com/WeebOppa/MyBookShelf.git
    cd MyBookShelf
 
+2. **Setup a virtual environment (optional but recommended):**
+   It's a good practice to use a virtual environment to isolate package dependencies. To set up a virtual environment, run:
+   ```bash
+   python -m venv venv
+   # Activate the virtual environment
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS and Linux:
+   source venv/bin/activate
+
+3. **Install dependencies:**
+   Once your virtual environment is activated, you can install the project dependencies listed in requirements.txt:
+   ```bash
+   pip install -r requirements.txt
+
 
