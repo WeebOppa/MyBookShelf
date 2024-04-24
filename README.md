@@ -1,8 +1,6 @@
 # YOUR PROJECT TITLE: MyBookShelf
 #### Video Demo:  <URL https://www.youtube.com/watch?v=Budv6iHtVNo>
-#### Description:
-
-This web-based application allows users to create a personalized digital library. Utilizing the Google Books API, users can search for books, save them to their personal library, and access detailed information about each book. The platform supports user authentication, enabling personal libraries for each user.
+#### Description: This web-based application allows users to create a personalized digital library. Utilizing the Google Books API, users can search for books, save them to their personal library, and access detailed information about each book. The platform supports user authentication, enabling personal libraries for each user.
 
 ### Features
 - **User Authentication:** Secure login and registration system.
