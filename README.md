@@ -50,4 +50,18 @@ The following instructions will guide you through setting up and running the MyB
    ```bash
    pip install -r requirements.txt
 
+4. **Environment Configuration:**
+    Set up the necessary environment variables. You'll need to provide your own API key for the Google Books API. This should be added to your environment variables or directly into your configuration file:
+    ```bash
+    export GOOGLE_BOOKS_API_KEY='your_api_key_here'
 
+5. **Initialize the database:**
+    Before running the application, you need to set up the database:
+    ```bash
+    flask db upgrade
+
+6. **Run the Flask application:**
+    Now, you're ready to run the application. Execute the following command to start the Flask
+    ```bash
+    flask run
+    This command will start the local server on http://127.0.0.1:5000/, and you can access the web application by navigating to this URL in your web browser.
