@@ -30,3 +30,4 @@ MyBookShelf is a web application designed to help book enthusiasts manage their 
    ```bash
    flask run
 
+This project was an opportunity to explore web development using Flask and integrating third-party APIs. It posed challenges such as managing user sessions, interacting with external APIs, and ensuring responsive design, all of which were addressed during development.
