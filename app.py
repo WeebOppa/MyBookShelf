@@ -56,7 +56,7 @@ class Database:
 
 
 # Configure CS50 Library to use SQLite database
-db = Database("///books_reviews.db")
+db = Database("books_reviews.db")
 
 
 @app.after_request
