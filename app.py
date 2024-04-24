@@ -54,9 +54,9 @@ class Database:
         with self.get_conn() as conn:
             conn.rollback()
 
-            
+
 # Configure CS50 Library to use SQLite database
-db = Database("E:/Desktop/Study/Final Project/books_reviews.db")
+db = Database("///books_reviews.db")
 
 
 @app.after_request
@@ -114,7 +114,7 @@ def register():
     # get
     else:
         return render_template("register.html")
-    
+
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -155,7 +155,7 @@ def login():
     # User reached route via GET (as by clicking a link or via redirect)
     else:
         return render_template("login.html")
-    
+
 @app.route("/logout")
 def logout():
     """Log user out"""
@@ -232,7 +232,7 @@ def add_book_to_library():
         book_details = fetch_book_details_from_google(book_id)
         if book_details:
             db.execute("INSERT INTO books (book_id, title, author, publisher, publish_date, description, cover_image_url) VALUES (?, ?, ?, ?, ?, ?, ?)",
-                       (book_details['book_id'], book_details['title'], book_details['author'], book_details['publisher'], 
+                       (book_details['book_id'], book_details['title'], book_details['author'], book_details['publisher'],
                         book_details['publish_date'], book_details['description'], book_details['cover_image_url']))
 
     # Add book to user's library
