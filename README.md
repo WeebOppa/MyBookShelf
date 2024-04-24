@@ -1,19 +1,21 @@
 # YOUR PROJECT TITLE: MyBookShelf
-#### Video Demo:  <URL https://www.youtube.com/watch?v=Budv6iHtVNo>
-#### Description: This web-based application allows users to create a personalized digital library. Utilizing the Google Books API, users can search for books, save them to their personal library, and access detailed information about each book. The platform supports user authentication, enabling personal libraries for each user.
 
-### Features
-- **User Authentication:** Secure login and registration system.
-- **Search Functionality:** Leverage Google Books API to search for books by various parameters.
-- **Personal Library:** Users can add books to their personal library and view them anytime.
-- **Book Details:** Detailed views for each book, including descriptions, authors, publishing information, and more.
-- **Mobile Responsive:** Ensures a seamless experience across all devices.
+#### Video Demo: [Watch Here](https://www.youtube.com/watch?v=Budv6iHtVNo)
+#### Description:
+MyBookShelf is a web application designed to help book enthusiasts manage their personal book collections digitally. It integrates with the Google Books API to allow users to search for books, add them to their personal library, and view detailed information about each title. The application supports individual user accounts, enabling users to maintain personalized libraries securely.
+
+### Key Features
+- **User Authentication:** Implements a secure login and registration system to manage individual user accounts.
+- **Search Functionality:** Users can search for books based on title, author, ISBN, and other criteria using the Google Books API, which returns comprehensive results including book cover images, publication details, and more.
+- **Personal Library:** Users can save their favorite books to their personal library for easy access at any time. This feature allows them to quickly retrieve their favorite reads and maintain a collection of books they are interested in.
+- **Book Details:** Provides detailed information for each book, such as synopsis, author bio, publication date, and additional metadata provided by the Google Books API.
+- **Mobile Responsive:** Designed to provide a consistent and accessible user experience across various devices, ensuring that users can manage their library on the go.
 
 ### Technologies Used
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Flask (Python)
-- **Database:** SQLite
-- **APIs:** Google Books API
+- **Frontend:** HTML5, CSS3, Bootstrap for responsive design, and JavaScript for dynamic interactions.
+- **Backend:** Flask, a lightweight WSGI web application framework in Python, used to handle requests, server-side logic, and interactions with the Google Books API.
+- **Database:** SQLite, a lightweight disk-based database to store user data and book information.
+- **APIs:** Google Books API, which provides the data used to search for books and retrieve metadata.
 
 ### Setup and Installation
 1. Clone the repository:
