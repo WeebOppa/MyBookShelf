@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+{% if books %}
+    <div class="library">
+        {% for book in books %}
+            <div class="book">
+                <h6>{{ book[1] }}</h6>
+                {% if book[7] %}
+                <a href="{{ url_for('book_details', book_id=book[0]) }}">
+                    <img src="{{ book[7] }}" alt="Cover image of {{ book[2] }}" class="book-cover">
+                </a>
+                {% else %}
+                <p>No image</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <p>You have no books in your library yet.</p>
+{% endif %}
+{% endblock %}

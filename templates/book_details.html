@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<div class="book-details">
+    <div class="book">
+        <h3>{{ book[2] }}</h3>
+        <p>Author: {{ book[3] }}</p>
+        <p>Publisher: {{ book[4] }}</p>
+        <p>Publish Date: {{ book[5] }}</p>
+        <p>Description: {{ book[6] | strip_tags }}</p>
+        <img src="{{ book[7] }}" alt="Cover image of {{ book[2] }}">
+    </div>
+</div>
+{% endblock %}
